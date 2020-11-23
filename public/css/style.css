@@ -6,8 +6,13 @@ body {
 	margin-right:100px;
 }
 
+/* Content */
+
+.content {
+	margin-top: 20px;
+}
 /* Projects */ 
 
-.projects .item {
-	
+.projects .item div {
+	height:100px;
 }
