@@ -1,7 +1,10 @@
 const express = require('express');
+
 const app = express();
+app.use(express.static('public'));
 
 var path = require("path");
+
 
 app.get('/', (req, res) => {
 
