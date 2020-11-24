@@ -16,3 +16,45 @@ body {
 .projects .item div {
 	height:100px;
 }
+
+/* Contact */
+.contact h1 {
+	
+}
+
+.contact input[type=text], .contact input[type=email], .contact textarea {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	display: block;
+	width: 100%;
+}
+
+.contact button {
+	border: none;
+	background-image: linear-gradient(to right, yellow, red);
+}
+
+.contact .social {
+	display: inline-block;
+	width:40px;
+	height: 40px;
+	background-size: 400%;
+	background-image: url("../imgs/socials.png");
+}
+
+.contact .social.fb {
+	background-position: -12px -12px;	
+}
+
+.contact .social.ln {
+	background-position: -108px -60px;	
+}
+
+.contact .social.tt {
+	background-position: -12px -60px;	
+}
+
+.contact .a{
+	text-decoration-color: transparent;
+}
