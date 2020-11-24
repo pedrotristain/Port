@@ -1,0 +1,17 @@
+<div class="content container-fluid">
+	<div class="row projects">
+
+		<!-- loop through all projects -->
+
+		{{#each data}}
+
+		<div class="col-md-3 item">
+			<div class="bg-primary item rounded-lg mx-md-2 my-1">
+				{{name}} - {{type}}
+			</div>
+		</div>
+		
+		{{/each}}
+		
+	</div>
+</div>
